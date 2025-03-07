@@ -1,5 +1,5 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 import pdfplumber
 import os 
@@ -54,8 +54,6 @@ if __name__ == "__main__":
     text_chunks = chunk_text(extracted_text)
 
     vector_store = create_vector_store(text_chunks)
-
-    print(f"Stored {len(text_chunks)} text chunks in FAISS.")
     # Query Example
     query = "What is Palantir's financial outlook?"
     results = query_vector_store(query)
