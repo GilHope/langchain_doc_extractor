@@ -1,3 +1,4 @@
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pdfplumber
 
 PDF_PATH = "Palantir Q4 2024 Business Update.pdf"
