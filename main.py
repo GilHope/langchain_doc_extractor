@@ -1,5 +1,5 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 import pdfplumber
 import os 
@@ -32,19 +32,14 @@ def chunk_text(text, chunk_size=1000, chunk_overlap=100):
 
 def create_vector_store(chunks):
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
-    vectorstore = FAISS.from_texts(chunks, embeddings)
-
-    faiss_path = "faiss_index"
-    if os.path.exists(faiss_path):
-        shutil.rmtree(faiss_path) # delete the existing index
-    vectorstore.save_local(faiss_path)
-
+    vectorstore = Chroma.from_texts(chunks, embeddings, persist_directory="chroma_db")
+    vectorstore.persist()  # Save to disk
     return vectorstore
 
 
 def load_vector_store():
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
-    return FAISS.load_local("faiss_index", embeddings)
+    return Chroma(persist_directory="chroma_db", embedding_function=embeddings)
 
 
 def query_vector_store(query, k=3):
