@@ -1,8 +1,9 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 import pdfplumber
 import os 
+import shutil
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -29,6 +30,28 @@ def chunk_text(text, chunk_size=1000, chunk_overlap=100):
     return chunks
 
 
+def create_vector_store(chunks):
+    embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+    vectorstore = FAISS.from_texts(chunks, embeddings)
+
+    faiss_path = "faiss_index"
+    if os.path.exists(faiss_path):
+        shutil.rmtree(faiss_path) # delete the existing index
+    vectorstore.save_local(faiss_path)
+
+    return vectorstore
+
+
+def load_vector_store():
+    embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+    return FAISS.load_local("faiss_index", embeddings)
+
+
+def query_vector_store(query, k=3):
+    vectorstore = load_vector_store()
+    results = vectorstore.similarity_search(query, k=k)
+    return results
+
 
 
 if __name__ == "__main__":
@@ -36,6 +59,14 @@ if __name__ == "__main__":
     
     text_chunks = chunk_text(extracted_text)
 
-    print(f"Total Chunks Created: {len(text_chunks)}")
-    print("\nSample Chunk:\n", text_chunks[0])
+    vector_store = create_vector_store(text_chunks)
+
+    print(f"Stored {len(text_chunks)} text chunks in FAISS.")
+
+    # Check if FAISS directory exists
+    if os.path.exists("faiss_index"):
+        print("✅ FAISS index saved successfully.")
+    else:
+        print("❌ FAISS index was NOT saved. Debug needed.")
+
 
