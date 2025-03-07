@@ -56,13 +56,6 @@ if __name__ == "__main__":
     vector_store = create_vector_store(text_chunks)
 
     print(f"Stored {len(text_chunks)} text chunks in FAISS.")
-
-    # Check if FAISS directory exists
-    if os.path.exists("faiss_index"):
-        print("✅ FAISS index saved successfully.")
-    else:
-        print("❌ FAISS index was NOT saved. Debug needed.")
-
     # Query Example
     query = "What is Palantir's financial outlook?"
     results = query_vector_store(query)
