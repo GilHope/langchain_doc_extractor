@@ -9,3 +9,5 @@ vector_store/
 .DS_Store
 
 Palantir Q4 2024 Business Update.pdf
+
+faiss_index/
