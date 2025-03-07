@@ -1,6 +1,6 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 import pdfplumber
 import os 
 import shutil
@@ -32,8 +32,7 @@ def chunk_text(text, chunk_size=1000, chunk_overlap=100):
 
 def create_vector_store(chunks):
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
-    vectorstore = Chroma.from_texts(chunks, embeddings, persist_directory="chroma_db")
-    vectorstore.persist()  # Save to disk
+    vectorstore = Chroma.from_texts(chunks, embeddings, persist_directory="chroma_db")# Save to disk
     return vectorstore
 
 
