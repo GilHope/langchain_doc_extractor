@@ -69,4 +69,13 @@ if __name__ == "__main__":
     else:
         print("❌ FAISS index was NOT saved. Debug needed.")
 
+    # Query Example
+    query = "What is Palantir's financial outlook?"
+    results = query_vector_store(query)
+
+    print("\n🔍 Query Results:")
+    for i, result in enumerate(results):
+        print(f"\nChunk {i+1}:")
+        print(result.page_content)
+
 
