@@ -1,0 +1,632 @@
+Q4
+©2025 Palantir Technologies Inc.
+2024
+Business Update
+
+This presentation contains “forward-looking” statements within the meaning of the federal securities laws, and these statements involve substantial risks and uncertainties. All statements other
+Disclaimer Safe Harbor
+than statements of historical fact could be deemed forward-looking, including, but not limited to, statements regarding our financial outlook, product development, distribution, and pricing,
+expected benefits of and applications for our software platforms, business strategy and plans (including strategy and plans relating to our Artificial Intelligence Platform (“AIP”), sales and
+marketing efforts, sales force, partnerships, and customers), investments in our business, market trends and market size, expectations regarding any current or potential customers, partnerships,
+or other business relationships or initiatives, opportunities (including growth opportunities), our expectations regarding our existing and potential investments in, and commercial contracts with,
+various entities, our expectations regarding macroeconomic events, our expectations regarding our share repurchase program, and positioning, as well as assumptions relating to the foregoing.
+Forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified. In some cases, you can identify forward-looking statements by
+terminology such as “guidance,” “expect,” “anticipate,” “should,” “believe,” “hope,” “target,” “project,” “plan,” “goals,” “estimate,” “potential,” “predict,” “may,” “will,” “might,” “could,” “intend,” “shall,”
+and variations of these terms or the negative of these terms and similar expressions. You should not put undue reliance on any forward-looking statements.
+Forward-looking statements should not be read as a guarantee of future performance or results and will not necessarily be accurate indications of the times at, or by, which such performance or
+results will be achieved, if at all. Forward-looking statements are subject to a number of risks and uncertainties, many of which involve factors or circumstances that are beyond our control. Our
+actual results could differ materially from those stated or implied in forward-looking statements due to a number of factors, including but not limited to risks detailed in our filings with the
+Securities and Exchange Commission (the “SEC”). You can locate these reports on our investor relations website (investors.palantir.com) or on the SEC website (www.sec.gov). If the risks or
+uncertainties ever materialize or the assumptions prove incorrect, our results may differ materially from those expressed or implied by such forward-looking statements. Except as required by law,
+we assume no obligation and do not intend to update these forward-looking statements or to conform these statements to actual results or to changes in our expectations.
+We use the non-GAAP financial measures adjusted free cash flow and adjusted free cash flow margin; adjusted gross profit and adjusted gross margin; billings; adjusted operating income and
+adjusted operating margin; operating income when excluding one-time SAR-related expenses and operating margin when excluding one-time SAR-related expenses; net income when excluding
+one-time SAR-related expenses; adjusted earnings per share (“EPS”), diluted; EPS when excluding one-time SAR-related expenses, diluted; and adjusted expenses to help us evaluate our
+business, identify trends affecting our business, formulate business plans and financial projections, and make strategic decisions. Our definitions may differ from the definitions used by other
+companies and therefore comparability may be limited. In addition, other companies may not publish these or similar metrics. Further, these metrics have certain limitations in that they do not
+include the impact of certain expenses that are reflected in our consolidated statements of operations. Thus, these non-GAAP financial measures should be considered in addition to, not as a
+substitute for, or in isolation from, measures prepared in accordance with GAAP. We compensate for these limitations by providing reconciliations of these non-GAAP financial measures to the
+most comparable GAAP measures. We encourage investors and others to review our business, results of operations, and financial information in its entirety, not to rely on any single financial
+measure, and to view these non-GAAP financial measures in conjunction with the most directly comparable GAAP financial measures.
+This presentation may contain statistical data, estimates, and forecasts that are based on independent industry publications or other publicly available information, as well as other information
+based on our internal sources. This information involves many assumptions and limitations, and you are cautioned not to give undue weight to these estimates. We have not independently verified
+the accuracy or completeness of the data contained in these industry publications and other publicly available information. Accordingly, we make no representations as to the accuracy or
+completeness of that data nor do we undertake to update such data after the date of this presentation.
+This presentation may also contain links to publicly-available websites, data, or other information. We have not independently verified the accuracy or completeness of such websites, data, or
+information and accordingly we make no representations as to their accuracy or completeness nor do we undertake to update such data or information after the date of this presentation. The
+inclusion of external links does not constitute endorsement by Palantir of the linked websites or the data or information contained therein.
+This presentation may refer to various growth rates when discussing our business. These rates reflect year-over-year comparisons unless otherwise stated.
+Any non-Palantir logos or trademarks included herein are the property of the owners thereof and are used for reference purposes only. Such use should not be construed as an endorsement of
+the platform and products of Palantir. The appearance of any US Department of Defense (DoD) visual information does not imply or constitute DoD endorsements.
+By attending or receiving this presentation you acknowledge that you will be solely responsible for your own assessment of the market and our market position and that you will conduct your own
+analysis and be solely responsible for forming your own view of such information, including the potential future performance of our business.
+Copyright © 2025 Palantir Technologies Inc. ("Palantir").
+
+Q4 Business Update
+Q4 2024 Highlights
+US revenue grew +52% Y/Y and +12% Q/Q to $558 million
+US commercial revenue grew +64% Y/Y and +20% Q/Q to $214 million
+US government revenue grew +45% Y/Y and +7% Q/Q to $343 million
+Revenue grew +36% Y/Y and +14% Q/Q to $828 million; +39% Y/Y and +14% Q/Q excluding Strategic Commercial Contracts
+Rule of 40 score of 81%
+Closed 129 deals of at least $1 million, 58 deals of at least $5 million, and 32 deals of at least $10 million
+Adjusted free cash flow of $517 million; 63% margin
+Adjusted operating income of $373 million; 45% margin
+US commercial remaining deal value (“RDV”) grew +99% Y/Y and +47% Q/Q to $1.79 billion
+Closed a record-setting $803 million of US commercial total contract value (“TCV”), +134% Y/Y and +170% Q/Q
+Adjusted EPS of $0.14
+The term "Strategic Commercial Contracts" is as defined in our Quarterly Report on Form 10-Q filed on November 5, 2024. Rule of 40 refers to the sum of our revenue growth rate year-over-year and our adjusted operating margin. The value of deals closed reflects the total contract value of contracts that have been entered
+into with, or awarded by, our government and commercial customers and includes existing contractual obligations and unexercised contract options available to those customers. Adjusted free cash flow and adjusted free cash flow margin exclude employer payroll taxes related to stock-based compensation and
+purchases of property and equipment. Adjusted operating income and adjusted operating margin excludes stock-based compensation expense and related employer payroll taxes. Total contract value (“TCV”) is the total potential lifetime value of contracts entered into with, or awarded by, our customers at the time of
+contract execution and remaining deal value (“RDV”) is the total remaining value of contracts as of the end of the reporting period. Except as noted below, TCV and RDV each presume the exercise of all contract options available to our customers and no termination of contracts. However, the majority of our contracts are
+subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised. Further, RDV may exclude all or some portion of the value of certain commercial contracts as a result of our ongoing assessments of customers’ financial
+condition, including the consideration of such customers’ ability and intention to pay, and whether such contracts continue to meet the criteria for revenue recognition, among other factors. Adjusted EPS excludes stock-based compensation expense, related employer payroll taxes, and income tax effects and adjustments.
+© 2025 Palantir Technologies Inc. Please see the appendix for reconciliations of these and other non-GAAP financial measures to the most directly comparable GAAP measures.
+
+FY Business Update
+FY 2024 Highlights
+US revenue grew +38% Y/Y to $1.90 billion
+US commercial revenue grew +54% Y/Y to $702 million
+US government revenue grew +30% Y/Y to $1.20 billion
+Revenue grew +29% Y/Y to $2.87 billion; +32% Y/Y excluding Strategic Commercial Contracts
+Rule of 40 score of 68%
+Customer count increased +43% Y/Y to 711, up from 497 a year ago
+Adjusted free cash flow of $1.25 billion; 44% margin
+Adjusted operating income of $1.13 billion; 39% margin, up 1,100 basis points Y/Y
+Adjusted EPS of $0.41
+$5.2 billion in cash, cash equivalents, and short-term US Treasury securities
+© 2025 Palantir Technologies Inc. We define a customer as an organization from which we have recognized revenue during the trailing twelve months period. Please see the appendix for reconciliations of these and other non-GAAP financial measures to the most directly comparable GAAP measures.
+
+Q4 Business Update
+In Q4, we celebrated
+the successful
+delivery of our
+Market-Vesting SARs.
+As a result of this achievement, $131
+million of one-time expenses related to
+these equity awards was accelerated.
+The term “Market-Vesting SARs” is as defined in our
+© 2025 Palantir Technologies Inc. Quarterly Report on Form 10-Q filed on November 5, 2024.
+
+Q4 Business Update
+Palantir’s inaugural Warp Speed
+cohort will power manufacturing
+and production capabilities
+through advanced AI & technology.
+“Warp Speed helps us ensure manufacturing
+capabilities for our customers quickly. By using
+the software, we’ve seen up to 200x efficiency
+gain in our ability to anticipate and respond to
+supply shortages.”
+Tom Bosco,
+Chief Information Officer, Anduril
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+Palantir extended its
+longstanding Army
+Vantage partnership for
+up to four years.
+↳ Supporting Army Data Platform
+Strategy and Joint Multi-Domain
+Operations.
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+At Palantir Prix, companies took the stage to share how they use
+Palantir’s software and philosophy to transform their businesses.
+“With the [Palantir] ontology, our food “We have been on our Palantir journey for “We partnered with Palantir, and we took
+safety quality regulatory team can do a a year and have 14 use cases in play and a process that would take four hours to a
+very quick, rapid and highly-focused 42 queued up. ... We have 1,011 day for numerous people, [and now] one
+investigation within our supply chain applications, and if I can connect all person can do it within minutes.”
+and with our customers. . . . We’re much those systems into Palantir, I can just
+faster, better and safer with our Palantir point a problem at it and get the data in
+partnership.” a meaningful way.”
+Brandon Headlee, Scott Raymond, Sean Rierdon,
+VP Food Safety, Quality & Regulatory Affairs MHA/INF, BSN, RN, Executive Director,
+Chief Information & Innovation Officer Customer Supply Chain
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+✓ 2 Days.
+✓ 14+ Product Launches.
+✓ 150 Builders.
+✓ One Developer Revolution.
+At DevCon 1, we brought together 150 of the
+most ambitious builders for two days of
+exclusive workshops, showcases, and
+competition.
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+Cleveland Clinic uses AIP Palantir & → Partnership
+Cleveland Impacts
+Clinic
+to streamline operations
+and bring world class care
+to more patients. 7.6% ↗ 38 ↘
+Increase in patient Minute decrease
+transfers to Main Campus in ER wait time
+“It's been transformative and it just shows
+the potential to set the standard for being 40% ↘ 75%↘
+the best-run hospital in the world.”
+Reduction in unused Reduction in time spent
+orthopaedic OR time calculating bed capacity
+Rohit Chandra, PhD,
+Chief Digital Officer
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+Transforming the
+speed and scale of
+the US Government
+In Q4, we received FedRAMP High Authorization
+for our Federal Cloud Service and Supporting
+Services, enabling software companies to
+accelerate market access to the Federal space
+through radical reduction of both time and cost.
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4 Business Update
+Through our renewed enterprise
+contract, Rio Tinto Rail operators
+will use Foundry and AIP to
+orchestrate and optimize train
+routes and maintenance needs
+for dozens of unmanned trains
+running 24/7.
+Learn more
+© 2025 Palantir Technologies Inc.
+
+Q4
+©2025 Palantir Technologies Inc.
+2024
+Financials
+
+Q4 Financials
+US commercial continues to accelerate in Q4 2024 alongside AIP revolution
++64% Y/Y +73% Y/Y +99% Y/Y
+US Commercial Revenue US Commercial Customer Count US Commercial Remaining Deal Value
++20% Q/Q +19% Q/Q +47% Q/Q
+US Commercial Revenue US Commercial Customer Count US Commercial Remaining Deal Value
+188 $803M
+US Commercial Deals Closed ~5x US Commercial Total Contract Value
++45% Y/Y +134% Y/Y
+3-Year US Commercial Customer Count Growth
+US Commercial Deals Closed US Commercial Total Contract Value
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+GAAP Net Income
+Our Q4 2024 GAAP earnings per
+share was $0.03.
+$250.0M
+$0.07 earnings per share when
+Net income when excluding
+excluding one-time SAR-related one-time SAR-related expenses
+$200.0M
+$164.7M
+expenses in Q4 2024.
+$150.0M
+$143.5M
+$134.1M
+$105.5M
+$100.0M
+$93.4M
+$79.0M
+$50.0M
+$—M
+Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+GAAP net income refers to net income attributable to common stockholders. Net income when excluding one-time SAR-related
+expenses and earnings per share when excluding one-time SAR-related expenses exclude the one-time accelerated stock-based
+© 2025 Palantir Technologies Inc. compensation expense, employer payroll taxes, and income tax effects and adjustments related to our Market-Vesting SARs.
+
+Q4 Financials
+GAAP Operating Income
+Our Q4 2024 GAAP operating
+margin was 1%.
+$250.0M
+17% operating margin when
+excluding one-time SAR-related
+$200.0M
+expenses in Q4 2024.
+Operating income when excluding
+one-time SAR-related expenses
+$142.3M
+$150.0M
+$113.1M
+$105.3M
+$100.0M
+$80.9M
+$65.8M
+$50.0M
+$11.0M
+$—M
+Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+Operating income when excluding one-time SAR-related expenses and operating margin when excluding one-time SAR-related expenses
+© 2025 Palantir Technologies Inc. exclude the one-time accelerated stock-based compensation expense and employer payroll taxes related to our Market-Vesting SARs.
+
+Q4 Financials
+Rule of 40
+81%
+80%
+70%
+68%
+64%
+60% 57%
+54%
+50%
+46%
+42%
+40%
+38%
+30%
+//
+Q1 2023 Q2 2023 Q3 2023 Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+US Revenue Growth
+US revenue grew 52% Y/Y and 12%
+Q/Q, driven by acceleration in US
+$600M $558M
+commercial and US government.
+$500M
++52%
+$400M
+$368M
+$300M
+$200M
+$100M
+$—M
+Q4 2023 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+US Commercial Revenue Growth US Government Revenue Growth
+$225M $214M $350M $343M
+$200M $325M
++64%
+$175M $300M
++45%
+$150M $275M
+$131M
+$125M $250M
+$237M
+$100M $225M
+$75M $200M
+// //
+Q4 2023 Q4 2024 Q4 2023 Q4 2024
+US commercial revenue grew 64% Y/Y and 20% Q/Q US government revenue grew 45% Y/Y and 7% Q/Q
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Commercial Revenue Growth Government Revenue Growth
+$400M $500M
+$455M
+$372M
+$450M
+$350M
++31% +40%
+$400M
+$284M
+$300M $350M $324M
+$300M
+$250M
+$250M
+$200M $200M
+// //
+Q4 2023 Q4 2024 Q4 2023 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Total Revenue Growth
+Total revenue grew +36% Y/Y
+and +14% Q/Q, driven by the
+$900M
+continued acceleration of our
+$828M
+US business.
+$800M
++36%
+$700M
+$608M
+$600M
+$500M
+//
+Q4 2023 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Total Revenue Growth excl. Strategic
+Total revenue excluding strategic Commercial Contracts
+commercial contracts grew
+$1000M
++39% Y/Y and +14% Q/Q.
+$818M
+$800M
++39%
+$600M
+$588M
+$400M
+//
+Q4 2023 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Q4 2024 adjusted operating income was
+We continue to invest aggressively $373M, representing a margin of 45%.
+in AIP and the US while driving
+ADJUSTED OPERATING MARGIN
+$400M
+$373M
+operating leverage at scale.
+45%
+$350M
+$276M
+$300M
+$254M
+38%
+$226M
+$250M
+37%
+$209M
+36%
+$200M
+34%
+$150M
+$100M
+$50M
+$—M
+Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+US Commercial Customer Count
+450
++73% Y/Y
+382
+400
++19%
+321
+350
+295 +9%
+300
+262
++13%
++19%
+250
+221
+200
+150
+100
+50
+TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED
+DEC 31, 2023 MAR 31, 2024 JUN 30, 2024 SEP 30, 2024 DEC 31, 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Customer Count Commercial Customer Count
++43% Y/Y
+800 +52% Y/Y
+571
+711
+600
+700
+629
++13%
+498
+593
+500 467
++15%
+600 554 +6%
+427
++7%
++7%
++9%
+497
+400
+500 +11% 375
++14%
+400
+300
+300
+200
+200
+100
+100
+TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED TTM ENDED
+DEC 31, 2023 MAR 31, 2024 JUN 30, 2024 SEP 30, 2024 DEC 31, 2024 DEC 31, 2023 MAR 31, 2024 JUN 30, 2024 SEP 30, 2024 DEC 31, 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+During Q4 2024, we closed
+129 deals
+of at least $1 million.
+58 32
+of which were at least $5 million. of which were at least $10 million.
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Cash from Operations and
+We ended Q4 2024 with Adjusted Free Cash Flow
+$5.2B
+CASH FROM OPERATIONS ADJUSTED FREE CASH FLOW
+$600M
+63% MARGIN
+$517M
+in cash, cash equivalents,
+56% MARGIN
+$500M
+$460M
+and US Treasury securities
+and no debt.
+$400M
+50% MARGIN
+50% MARGIN
+$305M
+$301M
+$300M
+$200M
+$100M
+$—M
+Q4 2023 Q4 2024 Q4 2023 Q4 2024
+© 2025 Palantir Technologies Inc.
+
+Q4 Financials
+Q1 2025 FY 2025
+For first quarter 2025, we expect: For full year 2025, we expect:
+Revenue of between Revenue of between
+$858 million — $862 million. $3.741 billion — $3.757 billion.
+Adjusted income from operations of between US commercial revenue in excess of
+$354 million — $358 million. $1.079 billion, representing a growth
+rate of at least 54%.
+Adjusted income from operations of between
+$1.551 billion — $1.567 billion.
+Adjusted free cash flow of between
+$1.5 billion — $1.7 billion.
+GAAP operating income and net income in each
+quarter of this year.
+© 2025 Palantir Technologies Inc.
+
+Q4
+©2025 Palantir Technologies Inc.
+2024
+Appendix
+
+Appendix
+Additional Metrics and Notes
+($ BILLIONS) Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+Total RPO $ 1.24 $ 1.30 $ 1.37 $ 1.57 $ 1.73
+Short-Term RPO $ 0.64 $ 0.69 $ 0.69 $ 0.73 $ 0.83
+Long-Term RPO $ 0.60 $ 0.61 $ 0.68 $ 0.84 $ 0.90
+($ MILLIONS)
+Billings $ 605 $ 625 $ 718 $ 823 $ 779
+Net dollar retention was 120% in Q4 2024.
+Net dollar retention is calculated as (a) revenue for the trailing twelve months as of each period attributable to the customers as counted for the prior trailing twelve months divided by (b) revenue for the prior trailing twelve months recognized from those same customers.
+Remaining performance obligations (“RPO”) reflects the values of contracts that have been entered into with, or awarded by, our government and commercial customers and represents non-cancelable contracted revenue that has not yet been recognized, which includes deferred revenue and, in certain instances,
+© 2025 Palantir Technologies Inc. amounts that will be invoiced. We have elected the practical expedient, as permitted under Accounting Standards Codification 606 — Revenue from Contracts with Customers, to not disclose remaining performance obligations for contracts with original terms of twelve months or less.
+
+Appendix
+Revenue Excluding Strategic Commercial Contracts
+($ THOUSANDS) Q4 2023 Q4 2024 FY 2023 FY 2024
+Revenue $ 608,350 $ 827,519 $ 2,225,012 $ 2,865,507
+Less:
+Revenue from Strategic Commercial Contracts 19,859 9,584 87,303 52,289
+Revenue Excluding Strategic Commercial Contracts $ 588,491 $ 817,935 $ 2,137,709 $ 2,813,218
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Rule of 40
+Q1 2023 Q2 2023 Q3 2023 Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024 FY 2024
+Year-Over-Year Revenue Growth 18% 13% 17% 20% 21% 27% 30% 36% 29%
+Adjusted Operating Margin 24% 25% 29% 34% 36% 37% 38% 45% 39%
+Rule of 40 42% 38% 46% 54% 57% 64% 68% 81% 68%
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Cash Flow from Operating Activities to Adjusted Free Cash Flow and Adjusted Free Cash Flow Margin
+Adjusted free cash flow margin is calculated as adjusted free cash flow divided by revenue
+($ THOUSANDS) Q4 2023 Q4 2024 FY 2024
+Cash Flow from Operating Activities $ 301,172 $ 460,327 $ 1,153,865
+Add:
+Cash Paid for Employer Payroll Taxes Related to Stock-Based Compensation 8,440 60,164 107,991
+Less:
+Cash Used to Purchase Property and Equipment (4,860) (3,106) (12,634)
+Adjusted Free Cash Flow $ 304,752 $ 517,385 $ 1,249,222
+Adjusted Free Cash Flow Margin 50% 63% 44%
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Gross Profit to Adjusted Gross Profit & Adjusted Gross Margin
+Excluding Stock-Based Compensation
+Adjusted gross margin is calculated as adjusted gross profit divided by revenue
+($ THOUSANDS) Q4 2023 Q4 2024 FY 2023 FY 2024
+Gross Profit $ 499,711 $ 652,986 $ 1,793,907 $ 2,299,517
+Add:
+Stock-Based Compensation 11,000 33,124 35,995 69,065
+Adjusted Gross Profit $ 510,711 $ 686,110 $ 1,829,902 $ 2,368,582
+Adjusted Gross Margin 84% 83% 82% 83%
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Income from Operations to Adjusted Operating Income and Adjusted Operating Margin
+Excluding Stock-Based Compensation and Related Employer Payroll Taxes
+($ THOUSANDS) Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024 FY 2023 FY 2024
+Income From Operations $ 65,794 $ 80,881 $ 105,339 $ 113,140 $ 11,043 $ 119,966 $ 310,403
+Add:
+Stock-Based Compensation 132,608 125,651 141,764 142,425 281,798 475,903 691,638
+Employer Payroll Taxes Related to Stock-Based Compensation 10,953 19,926 6,464 19,950 79,681 36,907 126,021
+Adjusted Operating Income $ 209,355 $ 226,458 $ 253,567 $ 275,515 $ 372,522 $ 632,776 $ 1,128,062
+Adjusted Operating Margin 34% 36% 37% 38% 45% 28% 39%
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Income from Operations to Operating Income When Excluding One-Time
+SAR-Related Expenses and Operating Margin When Excluding One-Time SAR-Related Expenses
+($ THOUSANDS) Q4 2024 QF4Y 22002244
+Income From Operations $ 79,009 $$ 41612,0,14930
+Add:
+Accelerated Stock-Based Compensation Expense Related to Market-Vesting SARs 115,776 111155,7,77766
+Employer Payroll Taxes Related to Market-Vesting SARs 15,528 1155,5,52288
+(45,599) (45,599)
+$ 164,714 $ 547,895
+Operating Income When Excluding One-Time SAR-Related Expenses $ 142,347
+20% 19%
+Operating Margin When Excluding One-Time SAR-Related Expenses 17%
+2,528,279 2,450,818
+0,07 0,22
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of GAAP Net Income and GAAP Earnings Per Share, Diluted to Net Income When Excluding One-Time
+SAR-Related Expenses and Earnings Per Share When Excluding One-Time SAR-Related Expenses, Diluted
+(AMOUNTS IN THOUSANDS, EXCEPT PER SHARE AMOUNTS) Q4 2024
+Net Income Attributable to Common Stockholders $ 79,009
+Add / (Less):
+Accelerated Stock-Based Compensation Expense Related to Market-Vesting SARs 115,776
+Employer Payroll Taxes Related to Market-Vesting SARs 15,528
+Income Tax Effects and Adjustments Related to Market-Vesting SARs [1] (45,599)
+Net Income When Excluding One-Time SAR-Related Expenses $ 164,714
+Weighted-Average Shares Used in Computing Earnings Per Share When Excluding One-Time SAR-Related Expenses, Diluted 2,528,279
+Earnings Per Share When Excluding One-Time SAR-Related Expenses, Diluted $ 0.07
+[1] Income tax effect is based on an estimated long-term annual effective tax rate of 23.0% for the period ended 2024. The Company’s estimated long-term annual effective tax rate excludes certain noncash items, such
+© 2025 Palantir Technologies Inc. as stock-based compensation, and is used in order to provide consistency across periods by eliminating the effects of certain items, such as changes in the tax valuation allowance.
+
+Appendix
+Reconciliation of GAAP Earnings Per Share, Diluted to Adjusted Earnings Per Share, Diluted
+(AMOUNTS IN THOUSANDS, EXCEPT PER SHARE AMOUNTS) Q4 2023 Q4 2024 FY 2023 FY 2024
+Net Income Attributable to Common Stockholders $ 93,391 $ 79,009 $ 209,825 $ 462,190
+Add / (Less):
+Stock-Based Compensation 132,608 281,798 475,903 691,638
+Employer Payroll Taxes Related to Stock-Based Compensation 10,953 79,681 36,907 126,021
+Income Tax Effects and Adjustments [1] (47,312) (98,541) (151,026) (278,000)
+Adjusted Net Income Attributable to Common Stockholders, Diluted $ 189,640 $ 341,947 $ $571,609 $ 1.001,849
+Weighted-Average Shares Used in Computing Adjusted Earnings Per Share, Diluted 2,357,741 2,528,279 2,297,928 2,450,818
+Adjusted Earnings Per Share, Diluted $ 0.08 $ 0.14 $ 0.25 $ 0.41
+[1] Income tax effect is based on an estimated long-term annual effective tax rate of 23.0% for the periods ended 2024 and 2023. The Company’s estimated long-term annual effective tax rate excludes
+© 2025 Palantir Technologies Inc. certain noncash items, such as stock-based compensation, and is used in order to provide consistency across periods by eliminating the effects of certain items, such as changes in the tax valuation allowance.
+
+Appendix
+Reconciliation of Revenue to Billings
+($ THOUSANDS) Q4 2023 Q1 2024 Q2 2024 Q3 2024 Q4 2024
+Revenue $ 608,350 $ 634,338 $ 678,134 $ 725,516 $ 827,519
+Change in Contract Liabilities (3,354) (9,051) 39,934 97,924 (48,636)
+Billings $ 604,996 $ 625,287 $ 718,068 $ 823,440 $ 778,883
+© 2025 Palantir Technologies Inc.
+
+Appendix
+Reconciliation of Cost of Revenue and Total Operating Expenses to Adjusted Expenses
+($ THOUSANDS) Q4 2023 Q3 2024 Q4 2024 FY 2023 FY 2024
+Total Expenses $ 542,556 $ 612,376 $ 816,476 $ 2,105,046 $ 2,555,104
+Less:
+Stock-Based Compensation 132,608 142,425 281,798 475,903 691,638
+Employer Payroll Taxes Related to Stock-Based Compensation 10,953 19,950 79,681 36,907 126,021
+Adjusted Expenses $ 398,995 $ 450,001 $ 454,997 $ 1,592,236 $ 1,737,445
+© 2025 Palantir Technologies Inc.
+
