@@ -6,16 +6,16 @@ from query_handler import generate_answer_from_chunks
 PDF_PATH = "Palantir Q4 2024 Business Update.pdf"
 
 def main():
-    # Extract text from the PDF.
+    # Extract text from PDF
     extracted_text = extract_text_from_pdf(PDF_PATH)
     
-    # Split the text into chunks.
+    # Split text into chunks
     text_chunks = chunk_text(extracted_text)
     
-    # Create the vector store (this persists the chunks).
+    # Create vector store
     create_vector_store(text_chunks)
     
-    # Run your query.
+    # Run
     query = "What is this document about?"
     answer = generate_answer_from_chunks(query)
     
