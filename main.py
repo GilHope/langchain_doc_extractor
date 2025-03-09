@@ -2,7 +2,12 @@ from extractor import extract_text_from_pdf
 from text_cleaner import clean_extracted_text
 from chunker import chunk_text
 from vector import create_vector_store
-from query_handler import generate_answer_from_chunks
+from query_handler import generate_answer_from_chunks, generate_answer_from_full_doc
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
 
 PDF_PATH = "Palantir Q4 2024 Business Update.pdf"
 
@@ -33,12 +38,16 @@ def main():
     create_vector_store(text_chunks)
     
     # Run
-    query = "Summarize the key business updates and financial performance details from the document. Please ignore legal disclaimers and non-GAAP discussions."
+    query = "Tell me about the company's quarterly revenue."
 
     answer = generate_answer_from_chunks(query)
+    answer_from_full_doc = generate_answer_from_full_doc(query, PDF_PATH)
     
-    print("\n🔍 AI Response:")
+    print("\n🔍 AI Response from Chunks:")
     print(answer)
+    print("--------------------------------")
+    print("\n🔍 AI Response from Full Document:")
+    print(answer_from_full_doc)
 
 if __name__ == "__main__":
     main()
